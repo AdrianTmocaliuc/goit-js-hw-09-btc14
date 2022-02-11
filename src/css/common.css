@@ -19,3 +19,22 @@ img {
 
 .changeColorBtn {
 }
+
+.timer {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.value {
+  font-size: 35px;
+}
+
+.label {
+  font-weight: bold;
+}

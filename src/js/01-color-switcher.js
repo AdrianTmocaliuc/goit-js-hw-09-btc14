@@ -19,7 +19,7 @@ function changeBodyColor() {
   refs.body.style.backgroundColor = getRandomHexColor();
   refs.intervalId = setInterval(() => {
     refs.body.style.backgroundColor = getRandomHexColor();
-    console.log(refs.startBtn);
+    // console.log(refs.startBtn);
   }, 1000);
   refs.startBtn.disabled = true;
   refs.stopBtn.disabled = false;

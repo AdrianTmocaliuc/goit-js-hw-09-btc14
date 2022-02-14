@@ -17,9 +17,6 @@ img {
   max-width: 100%;
 }
 
-.changeColorBtn {
-}
-
 .timer {
   display: flex;
   width: 230px;
@@ -37,4 +34,10 @@ img {
 
 .label {
   font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
 }
